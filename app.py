@@ -10,3 +10,14 @@ tinggi = float (input("Input Tinggi Segitiga :"))
 
 print ('Luas Segitiga = ', hitungLuasSegitiga(alas,tinggi))
 print()
+
+print("## PROGRAM PYTHON MENGHITUNG PANJANG PERSEGI")
+print("==========================================")
+print()
+
+def hitungPersegiPanjang (p,l)
+    return round (p * l,2)
+
+panjang = float(input('input panjang : '))
+lebar = float(input('inpu lebar :'))
+print ('luas persegi panjang = ', hitungPersegiPanjang(panjang,lebar))
